@@ -3,6 +3,7 @@ import express from 'express';
 import moviesRouter from './api/movies';
 import './db'
 import './seedData'
+import usersRouter from './api/users';
 import genresRouter from './api/genres'
 
 dotenv.config();
@@ -19,3 +20,5 @@ app.use('/api/genres', genresRouter);
 app.listen(port, () => {
   console.info(`Server running at ${port}`);
 });
+
+app.use('/api/users', usersRouter); 
