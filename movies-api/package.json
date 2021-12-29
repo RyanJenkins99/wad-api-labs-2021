@@ -1,5 +1,5 @@
 {
-  "name": "movies-api",
+  "name": "moviesapi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,6 @@
   },
   "author": "RyanJenkins99",
   "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^10.1.0",
-    "babel-preset-env": "^1.7.0",
-    "eslint": "^8.4.1",
-    "nodemon": "^2.0.15"
-  },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "dotenv": "^10.0.0",
@@ -25,6 +18,14 @@
     "mongoose": "^6.0.13",
     "passport": "^0.5.0",
     "passport-jwt": "^4.0.0",
-    "uniqid": "^5.4.0"
+    "uniqid": "^5.4.0",
+    "unqid": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^8.2.0",
+    "nodemon": "^2.0.15"
   }
 }
